@@ -1,0 +1,122 @@
+.quiz-container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 20px;
+    backdrop-filter: blur(12px);
+    box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    animation: fadeSlide 0.5s ease;
+  }
+  
+  .quiz-heading {
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #00e0c6;
+  }
+  
+  .quiz-question {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .question-text {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1a7cba;
+  }
+  
+  .points {
+    color: #aaa;
+    font-size: 0.95rem;
+    margin-left: 10px;
+  }
+  
+  .text-answer {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.08);
+    border: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    color: #1a71e4;
+  }
+  
+  .text-answer::placeholder {
+    color: #119fa1;
+  }
+  
+  .answer-option {
+    display: block;
+    margin: 10px 0;
+    font-size: 1rem;
+    color: #179ba7;
+  }
+  
+  .answer-option input {
+    margin-right: 10px;
+    transform: scale(1.2);
+  }
+  
+  .quiz-actions {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .btn {
+    padding: 12px 28px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s ease;
+  }
+  
+  .submit-btn {
+    background: linear-gradient(90deg, #00c896, #00a87a);
+    color: #fff;
+  }
+  
+  .submit-btn:hover {
+    background: linear-gradient(90deg, #00a87a, #008f68);
+    transform: scale(1.05);
+  }
+  
+  .cancel-btn {
+    background: #f44336;
+    color: #fff;
+  }
+  
+  .cancel-btn:hover {
+    background: #d32f2f;
+    transform: scale(1.05);
+  }
+  .quiz-description {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @keyframes fadeSlide {
+    from {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
