@@ -29,6 +29,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ```
 
+Link to video https://www.loom.com/share/c1e6d39ca5504b87946d6a247ecb5535?sid=3d750acf-5823-4c7c-804f-5c413e7c160b
+
 > ✅ Make sure the backend is running at `http://localhost:8000`.
 
 ---
@@ -96,3 +98,5 @@ For deployment, it's recommended to:
 - Deploy frontend and backend using tools like **Render**, **Railway**, **Vercel**, or **Docker**
 
 ---
+
+# Link to video https://www.loom.com/share/c1e6d39ca5504b87946d6a247ecb5535?sid=3d750acf-5823-4c7c-804f-5c413e7c160b
